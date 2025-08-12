@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <!-- Header -->
+  <header class="bg-primary text-white text-center py-5">
+    <h1>Allah Bachaie Soomro</h1>
+    <p class="lead">Web Developer | Designer | Freelancer</p>
+    <nav class="mt-3">
+      <a href="#about" class="text-white mx-3">About</a>
+      <a href="#skills" class="text-white mx-3">Skills</a>
+      <a href="#projects" class="text-white mx-3">Projects</a>
+      <a href="#contact" class="text-white mx-3">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="container py-5">
+    <h2 class="text-center mb-4">About Me</h2>
+    <p class="text-center">I am a passionate web developer with expertise in building responsive and user-friendly websites. I love working with modern technologies to create beautiful and functional designs.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p><i class="fab fa-html5 text-danger"></i> HTML</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-danger" style="width: 90%;">90%</div>
+          </div>
+          <p><i class="fab fa-css3-alt text-primary"></i> CSS</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width: 85%;">85%</div>
+          </div>
+          <p><i class="fab fa-js text-warning"></i> JavaScript</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-warning text-dark" style="width: 80%;">80%</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p><i class="fab fa-bootstrap text-purple"></i> Bootstrap</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-purple" style="width: 85%;">85%</div>
+          </div>
+          <p><i class="fas fa-code text-success"></i> React</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 75%;">75%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container py-5">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://picsum.photos/400/250?random=1" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project One</h5>
+            <p class="card-text">A short description of the project and what technologies were used.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://picsum.photos/400/250?random=2" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project Two</h5>
+            <p class="card-text">A short description of the project and what technologies were used.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://picsum.photos/400/250?random=3" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Project Three</h5>
+            <p class="card-text">A short description of the project and what technologies were used.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-4">
+    <div class="mb-2">
+      <a href="#" class="text-white mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+      <a href="#" class="text-white mx-2"><i class="fab fa-twitter fa-lg"></i></a>
+      <a href="#" class="text-white mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="#" class="text-white mx-2"><i class="fab fa-github fa-lg"></i></a>
+    </div>
+    <p class="mb-0">&copy; 2025 John Doe. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

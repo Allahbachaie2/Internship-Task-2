@@ -1,0 +1,29 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header nav a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #ffd700;
+}
+
+.progress-bar.bg-purple {
+  background-color: #6f42c1;
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+footer a:hover {
+  color: #ffd700;
+}
